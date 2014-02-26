@@ -1,7 +1,7 @@
 {
   "name": "passport-ssl-certificate",
   "version": "0.0.0",
-  "description": "TODO",
+  "description": "SSL certificate authentication strategy for Passport.",
   "keywords": [
     "passport",
     "ssl",
@@ -27,6 +27,7 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "passport-strategy": "1.x.x"
   },
   "devDependencies": {
     "mocha": "1.x.x",
